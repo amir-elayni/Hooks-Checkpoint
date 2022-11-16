@@ -20,7 +20,7 @@ const MovieList = ({movies,addMovie}) => {
         <br></br>
         <br></br>
 
-        <button type="button" class="btn btn-dark" id="bt" onClick={handleShow}>ADD NEW Movie NOW</button>
+        <button type="button" className="btn btn-dark" id="bt" onClick={handleShow}>ADD NEW Movie NOW</button>
 
 
             <Add  addMovie={addMovie} show={show} handleClose={handleClose} />
